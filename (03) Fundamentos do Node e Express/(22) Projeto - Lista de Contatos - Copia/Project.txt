@@ -1,0 +1,9 @@
+API de Lista de Contatos
+   - Criar um novo contato
+   - Listar os contatos 
+   - Excluir o contato
+
+Planejamento de rostas:
+   - POST /contato { name: 'Shanks' }
+   - GET /contatos
+   - DELETE = contato?name='Shanks'

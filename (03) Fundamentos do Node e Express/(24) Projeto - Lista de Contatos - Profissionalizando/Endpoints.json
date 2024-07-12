@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "express",
+    "collectionId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+    "dateExported": "2024-07-04T17:43:02.017Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d2377f2f-cc81-44c2-8c92-5fea8d893e88",
+            "colId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+            "containerId": "",
+            "name": "Register",
+            "url": "localhost:3001/contato",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-26T19:05:01.428Z",
+            "modified": "2024-07-04T17:38:48.321Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Shanks\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "00491ccf-7b9c-4fc3-af70-ccdbaaa4afa0",
+            "colId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+            "containerId": "",
+            "name": "Contatos",
+            "url": "localhost:3001/contatos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-04T17:30:04.212Z",
+            "modified": "2024-07-04T17:30:10.088Z",
+            "headers": []
+        },
+        {
+            "_id": "783e3572-447d-4ab4-aa1f-880ae9e873bd",
+            "colId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+            "containerId": "",
+            "name": "Delete",
+            "url": "localhost:3001/contato/?name",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-07-04T17:31:15.050Z",
+            "modified": "2024-07-04T17:42:53.004Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "knJpuBoIkgG0yJpAKUjZxIBQhfBd4_W5veFy4r_CtTIGnm7WiBD9orKgM6P1lSj9KY5x8nKShqGKaEWyNitqig"
+}

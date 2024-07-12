@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "express",
+    "collectionId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+    "dateExported": "2024-06-26T19:18:19.955Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d2377f2f-cc81-44c2-8c92-5fea8d893e88",
+            "colId": "711d20f2-473d-4160-b3f9-4920011f9c36",
+            "containerId": "",
+            "name": "Register",
+            "url": "localhost:3001/contato",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-26T19:05:01.428Z",
+            "modified": "2024-06-26T19:17:37.878Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Kaido\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "knJpuBoIkgG0yJpAKUjZxNkUz9gsqveeRxUhMpXRI35KlzwXpxSEqBIpRcL8_vQTNEdiiAlkhtV8DlyR7IxFzA"
+}
