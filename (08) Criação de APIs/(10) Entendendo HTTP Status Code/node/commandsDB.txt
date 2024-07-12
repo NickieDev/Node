@@ -1,0 +1,27 @@
+CREATE TABLE phases(
+   author VARCHAR NOT NULL,
+   txt TEXT NOT NULL,
+   id SERIAL NOT NULL
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Alguma frase legal'
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Outra frase legal'
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Alguma frase legal'
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Outra frase legal'
+);
+
+ALTER SEQUENCE phases_id_seq RESTART WITH 4; /* Reseta o ID */
+
+DELETE FROM phases WHERE id=04;
+
+SELECT * FROM phases;

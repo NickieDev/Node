@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página Home - (23) Mustache -Else de Listas</title>
+</head>
+<body>
+   <h1>Título da Página</h1>
+   <hr/>
+   {{!-- Substituir os (()) por CHAVES --}}
+
+   Opa {{ name }} {{ lastName }}, de boa? 
+   {{#showOld}}
+      Como vai a vida?
+   {{/showOld}}
+   {{^showOld}}
+      Beleza?
+   {{/showOld}}
+
+
+   <hr/>
+
+   <h2>Produtos</h2>
+
+   <ul>
+      {{#products}}
+         {{!-- Para redenrizar itens de um Obj --}}
+         <li>{{ title }} - R$ {{ price }}</li>
+      {{/products}}
+   </ul>
+
+   <hr/>
+
+   <ul>
+      {{#frasesDoDia}}
+         {{!-- Para renderizar elementos simples --}}
+         <li>{{ . }}</li>
+      {{/frasesDoDia}}
+
+      {{!-- Caso não houver elementos na lista --}}
+      {{^frasesDoDia}}
+         Não há frases motivacionais hoje
+      {{/frasesDoDia}}
+   </ul> 
+   
+</body>
+</html>

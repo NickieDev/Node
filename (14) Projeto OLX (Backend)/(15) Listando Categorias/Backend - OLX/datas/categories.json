@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63acf2efc06efd25105ff3cc"
+  },
+  "name": "Bebês",
+  "slug": "baby"
+},{
+  "_id": {
+    "$oid": "63acf326c06efd25105ff3cd"
+  },
+  "name": "Carros",
+  "slug": "cars"
+},{
+  "_id": {
+    "$oid": "63acf344c06efd25105ff3ce"
+  },
+  "name": "Roupas",
+  "slug": "clothes"
+},{
+  "_id": {
+    "$oid": "63acf37ac06efd25105ff3cf"
+  },
+  "name": "Eletrônicos",
+  "slug": "electronics"
+},{
+  "_id": {
+    "$oid": "63acf397c06efd25105ff3d0"
+  },
+  "name": "Esportes",
+  "slug": "sports"
+}]

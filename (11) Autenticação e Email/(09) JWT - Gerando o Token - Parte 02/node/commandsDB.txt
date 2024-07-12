@@ -1,0 +1,22 @@
+CREATE DATABASE auths;
+
+USE DATABASE auths;
+
+CREATE TABLE users(
+   id SERIAL NOT NULL,
+   email VARCHAR NOT NULL,
+   password VARCHAR NOT NULL
+);
+
+INSERT INTO users (email, password) VALUES (
+   'test@test.com', '1234'
+);
+
+SELECT * FROM user
+
+
+ALTER SEQUENCE users_id_seq RESTART WITH 4; /* Reseta o ID */
+
+DELETE FROM users WHERE id=04;
+
+SELECT * FROM users;

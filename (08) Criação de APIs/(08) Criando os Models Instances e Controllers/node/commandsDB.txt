@@ -1,0 +1,15 @@
+CREATE TABLE phases(
+   author VARCHAR NOT NULL,
+   txt TEXT NOT NULL,
+   id SERIAL NOT NULL
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Alguma frase legal'
+);
+
+INSERT INTO phases VALUES (
+   'Desconhecido', 'Outra frase legal'
+);
+
+SELECT * FROM phases;

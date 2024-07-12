@@ -1,0 +1,12 @@
+{
+  "email": "luffy@op.com",
+  "age": 20,
+  "interests": [
+    "Arte",
+    "Comer"
+  ],
+  "name": {
+    "firstName": "Monkey D",
+    "lastName": "Luffy"
+  }
+}

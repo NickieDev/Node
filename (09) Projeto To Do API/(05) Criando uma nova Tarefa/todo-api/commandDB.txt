@@ -1,0 +1,26 @@
+CREATE DATABASE node_todo_simples;
+
+CREATE TABLE todos (
+    id SERIAL NOT NULL,
+    title VARCHAR NOT NULL,
+    done BOOLEAN DEFAULT false
+);
+
+INSERT INTO todos (id, title, done) VALUES (
+    01,
+    'Gravar aulas de ler dados',
+    false
+);
+
+INSERT INTO todos (id, title, done) VALUES (
+    02,
+    'Colocar o vídeo da aula para edição',
+    false
+);
+
+UPDATE todos SET id = 3 WHERE id = 5;
+
+ALTER SEQUENCE todos_id_seq RESTART WITH 4; // Reseta o ID
+
+UPDATE todos SET id = 1 WHERE title = 'Gravar aulas de ler dados';
+SELECT * FROM todos;

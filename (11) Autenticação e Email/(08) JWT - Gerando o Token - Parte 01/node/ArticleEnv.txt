@@ -1,0 +1,8 @@
+PORT=4000
+
+PG_DB=
+PG_USER=postgres
+PG_PASSWORD=YourPassword
+PG_PORT=5432
+
+JWT_SECRET_KEY=Anything

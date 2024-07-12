@@ -1,0 +1,10 @@
+- Testes são pedaços de código que você cria para ter certeza que uma parte do sistema continua funcionando.
+
+- TDD (Teste-Driven Developmento) = Desenvolvimento Orientado a Testes
+
+- Tipos de testes: 
+   -- Testes Unitários (Unit test)
+   -- Testes de integração (Integration test)
+   -- Testes End-To-End (e2e test) 
+
+npx ts-jest config:init

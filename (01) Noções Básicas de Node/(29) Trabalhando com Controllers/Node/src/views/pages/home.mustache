@@ -1,0 +1,38 @@
+{{ >partials/header }} 
+{{!-- Faz o carregamento da Partial, seria como os 'Components' --}}
+
+   {{!-- Substituir os (()) por CHAVES --}}
+
+   Opa {{ name }} {{ lastName }}, de boa? 
+   {{#showOld}}
+      Como vai a vida?
+   {{/showOld}}
+   {{^showOld}}
+      Beleza?
+   {{/showOld}}
+
+   <hr/>
+
+   <h2>Produtos</h2>
+
+   <ul>
+      {{#products}}
+         {{ >partials/productItem }}
+      {{/products}}
+   </ul>
+
+   <hr/>
+
+   <ul>
+      {{#frasesDoDia}}
+         {{!-- Para renderizar elementos simples --}}
+         <li>{{ . }}</li>
+      {{/frasesDoDia}}
+
+      {{!-- Caso não houver elementos na lista --}}
+      {{^frasesDoDia}}
+         Não há frases motivacionais hoje
+      {{/frasesDoDia}}
+   </ul> 
+   
+{{ >partials/footer }}

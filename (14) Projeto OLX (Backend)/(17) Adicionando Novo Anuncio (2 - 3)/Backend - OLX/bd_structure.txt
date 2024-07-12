@@ -1,0 +1,34 @@
+users
+   - _id
+   - name
+   - email
+   - state
+   - passwordHash
+   - token
+
+states 
+   - _id
+   - name
+
+categories
+   - _id
+   - name
+   - slug
+
+ads
+   - _id
+   - idUser
+   - state
+   - category
+   - images [ { url, default: true } ]
+   - dateCreated
+   - title
+   - price
+   - priceNegotiable: true
+   - description 
+   - views
+   - status
+
+// AVISO 
+Para importar os dados é necessário criar o Banco 'OLX' no MongoDB Comprass
+   - Criar as collections states e importar os dados correspondentes aos seus nomes no arquivo JSON 

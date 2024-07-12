@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "63ae0050a16c25d42ea93c08"
+  },
+  "images": [
+    {
+      "url": "f4d25c59-1fa5-4a49-a7c6-bd4ee76b1f86.jpg",
+      "default": true
+    }
+  ],
+  "status": "true",
+  "idUser": "63acb2faba39fcd0987ac561",
+  "state": "63ac9166c06efd25105ff3ae",
+  "dateCreated": {
+    "$date": {
+      "$numberLong": "1672347728491"
+    }
+  },
+  "title": "Ad Test",
+  "category": "63acf2efc06efd25105ff3cc",
+  "price": 100.35,
+  "priceNegotiable": true,
+  "description": "Alguma coisa na descrição",
+  "views": 6,
+  "__v": 0
+}]

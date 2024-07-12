@@ -1,0 +1,23 @@
+Autenticação vs Autorização
+
+Autenticação: É basicamente é o ato de SABER QUEM É que está tentando acessar.
+
+Autorização: É basicamente o ato de verificar se o OBJETO ou o REQUISITOR pode acessar aquela área específica
+
+--------- Aula 03 -----------
+
+- Single-Factor Authentication = Autenticação de 1 fator.
+- Two-Factor Authentication (2FA) = Autenticação em 2 fatores.
+- Multi-Factot Authentication (MFA) = Autenticação em múltiplos fatores.
+- Single Sign-On (SSO) = Autenticação única "universal".
+
+
+----------- Aula 04 O próximo passo da Autenticação  -------
+
+- Basic Auth - BASE64
+- OAuth (1 e 2)
+	- OAuth1 = Usar um terceiro para gerar um token temporário;
+	- OAuth2 = OAuth1 + RefreshToken;
+- JWT (Json Web Token)
+
+Projeto Base => https://github.com/suporteb7web/node-base-api

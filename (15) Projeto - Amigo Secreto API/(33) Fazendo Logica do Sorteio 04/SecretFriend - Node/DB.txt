@@ -1,0 +1,26 @@
+Planejamento de Banco de Dados
+
+- Eventos
+- Grupos
+- Pessoas
+
+// Tables
+-> Events
+   - id INT PK AUTO_INCREMENT
+   - status BOOLEAN default = false
+   - title STRING
+   - description STRING
+   - grouped BOOLEAN default = false
+
+-> eventsGroups
+   - id INT PK AUTO_INCREMENT
+   - id_event INT (RELACIONADO a events.id)
+   - name STRING
+
+-> eventPeople
+   - id INT PK AUTO_INCREMENT
+   - id_event INT (RELACIONADO a events.id)
+   - id_group INT (RELACIONADO a eventGroups.id)
+   - name STRING
+   - cpf STRING
+   - matched STRING default = ''

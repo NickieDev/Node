@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "63acb2faba39fcd0987ac561"
+  },
+  "name": "Shank",
+  "email": "shanks@op.com",
+  "state": "63ac9166c06efd25105ff3ae",
+  "passwordHash": "$2b$10$h9YKdbcHF6WRp/cJ6wj6VOikSxEDaSGOEOYciBn1LCAwIiuM1hRa2",
+  "token": "$2b$10$I5Jph1.f/Phft/m3aeHCd.PTAO5TFYnyOPf4MenSD5qlQgWABJwpe",
+  "__v": 0
+}]

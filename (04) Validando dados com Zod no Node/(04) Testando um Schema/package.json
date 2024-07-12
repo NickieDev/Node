@@ -1,0 +1,17 @@
+{
+  "name": "Zod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "zod": "node --import=tsx --watch ./src/zod.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

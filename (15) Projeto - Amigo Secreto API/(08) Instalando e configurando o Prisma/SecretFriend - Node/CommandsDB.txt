@@ -1,0 +1,6 @@
+CREATE DATABASE secreteFriend;
+
+USE secretFriend;
+
+// Prisma
+npx prisma init => Gera o a pasta e o arquivo do Prisma

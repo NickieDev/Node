@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "63adf2d6a2eb349904937a0e"
+  },
+  "images": [
+    {
+      "url": "27a6657c-61d0-44fa-9956-000834a9d1a3.jpg",
+      "default": true
+    }
+  ],
+  "status": "true",
+  "idUser": "63acb2faba39fcd0987ac561",
+  "state": "63ac9166c06efd25105ff3ae",
+  "dateCreated": {
+    "$date": {
+      "$numberLong": "1672344278322"
+    }
+  },
+  "title": "Ad Test",
+  "category": "baby",
+  "price": 10035,
+  "priceNegotiable": true,
+  "description": "Alguma coisa na descrição",
+  "views": 0,
+  "__v": 0
+}]

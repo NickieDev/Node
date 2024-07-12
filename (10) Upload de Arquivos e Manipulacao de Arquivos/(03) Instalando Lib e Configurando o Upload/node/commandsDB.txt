@@ -1,0 +1,23 @@
+CREATE TABLE phrases(
+   author VARCHAR NOT NULL,
+   txt TEXT NOT NULL,
+   id SERIAL NOT NULL
+);
+
+INSERT INTO phrases VALUES (
+   'Desconhecido', 'Alguma frase legal'
+);
+
+INSERT INTO phrases VALUES (
+   'Desconhecido', 'Outra frase legal'
+);
+
+INSERT INTO phrases VALUES (
+   'Desconhecido', 'Alguma frase legal'
+);
+
+ALTER SEQUENCE pharses_id_seq RESTART WITH 4; /* Reseta o ID */
+
+DELETE FROM phrases WHERE id=04;
+
+SELECT * FROM phrases;

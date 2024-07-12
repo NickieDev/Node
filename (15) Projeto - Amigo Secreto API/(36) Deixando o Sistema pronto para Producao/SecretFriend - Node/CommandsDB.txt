@@ -1,0 +1,9 @@
+CREATE DATABASE secreteFriend;
+
+USE secretFriend;
+
+// Prisma
+npx prisma init => Gera o a pasta e o arquivo do Prisma
+
+npx prisma db push => Pega o schema, cria mas nao gera o historico
+npx prisma migrate dev => Pega o schema, cria e gera um historico
